@@ -225,8 +225,8 @@ footer p { margin-bottom: 4px; }
 /* 头像样式 */
 .0e599f412ee6a88c30fd4f0e59116285 {
   /* 尺寸控制：自己改数字，宽高设成一样才是正圆 */
-  width: 10px;
-  height: 10px;
+  width: 40px;
+  height: 40px;
 
   /* 防止图片拉伸变形，自动裁剪居中 */
   object-fit: cover;
