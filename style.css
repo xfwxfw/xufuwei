@@ -222,3 +222,22 @@ footer p { margin-bottom: 4px; }
     .post-body { font-size: 15px; }
     .nav-links { gap: 16px; }
 }
+/* 头像样式 */
+.avatar {
+  /* 尺寸控制：自己改数字，宽高设成一样才是正圆 */
+  width: 100px;
+  height: 100px;
+
+  /* 防止图片拉伸变形，自动裁剪居中 */
+  object-fit: cover;
+
+  /* 可选：改成圆形头像 */
+  border-radius: 50%;
+
+  /* 可选：加个边框/阴影，更好看 */
+  border: 2px solid #eee;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+
+  /* 可选：手机端自适应，不会超出屏幕 */
+  max-width: 100%;
+}
