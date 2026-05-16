@@ -225,8 +225,8 @@ footer p { margin-bottom: 4px; }
 /* 头像样式 */
 .avatar {
   /* 尺寸控制：自己改数字，宽高设成一样才是正圆 */
-  width: 100px;
-  height: 100px;
+  width: 10px;
+  height: 10px;
 
   /* 防止图片拉伸变形，自动裁剪居中 */
   object-fit: cover;
